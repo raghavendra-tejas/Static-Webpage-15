@@ -1,0 +1,13 @@
+#navbar-container {
+  height: 100px;
+  background-color: #111111;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-right a {
+    margin-right: 40px;
+    color: #ffffff;
+    font-size: 16px;
+}
