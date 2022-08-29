@@ -1,5 +1,5 @@
 #main-1-container {
-  height: 130vh;
+  height: 100%;
   background: linear-gradient(
     to right,
     #181818 0%,
@@ -26,7 +26,7 @@
 }
 
 .skill-sets-bcgColor-2 h4 {
-  color: #ffffff;
+  color: #000;
   padding-top: 20px;
 }
 
@@ -66,7 +66,7 @@
 
 .project-data-container {
   display: flex;
-  height: 500px;
+  height: 100%;
   justify-content: center;
   align-items: center;
 }
