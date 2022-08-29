@@ -7,10 +7,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 250px;
+  height: 100%;
   padding: 0 50px;
   background-color: #1e1e1e;
   margin: 0 150px;
+}
+
+.contact-container-left {
+  padding: 50px 0;
 }
 
 .contact-container-left h1 {
@@ -21,6 +25,7 @@
 .contact-container-left p {
   color: #ffffff;
   font-size: 16px;
+  padding-right: 100px;
 }
 
 .contact-container-right button {
@@ -34,10 +39,14 @@
 }
 
 
+
+
+
 .footer-nav {
-  text-align: center;
   padding: 50px 0;
   background-color: #111111;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-nav a {
@@ -49,7 +58,7 @@
 
 .footer-socialMedia {
   display: flex;
-  padding: 50px 250px;
+  padding: 50px 230px;
   align-items: center;
   background-color: #111111;
   justify-content: space-between;

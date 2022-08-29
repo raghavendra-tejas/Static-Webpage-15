@@ -57,6 +57,43 @@
     grid-template-rows: 1fr;
     padding: 50px 50px 100px 50px;
   }
+  .contact-container {
+    flex-direction: column;
+    padding: 50px 0;
+    text-align: center;
+  }
+  .contact-container-right {
+    padding-top: 50px;
+  }
+  .contact-container-left {
+    padding: 0 30px;
+  }
+  .contact-container {
+    margin: 0 30px;
+  }
+  .contact-container-left p {
+    padding-right: 0;
+  }
+  .footer-nav {
+    flex-direction: column;
+    padding-left: 40%;
+  }
+  .footer-nav a {
+    padding-top: 20px;
+  }
+  .footer-socialMedia {
+    flex-direction: column;
+    padding: 50px 100px;
+  }
+  .footer-right-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  .footer-right-logo i {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 
@@ -119,6 +156,35 @@
     grid-template-rows: 1fr;
     padding: 50px 70px 100px 70px;
   }
+  .contact-container {
+    flex-direction: column;
+    padding: 50px 0;
+    text-align: center;
+  }
+  .contact-container-right {
+    padding-top: 50px;
+  }
+  .contact-container-left {
+    padding: 0 30px;
+  }
+  .contact-container {
+    margin: 0 30px;
+  }
+  .contact-container-left p {
+    padding-right: 0;
+  }
+  .footer-socialMedia {
+    flex-direction: column;
+  }
+  .footer-right-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+  .footer-right-logo i {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 
@@ -175,6 +241,22 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
+  .contact-container {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .contact-container-right {
+    padding-top: 50px;
+  }
+  .contact-container-left {
+    padding: 0 50px;
+  }
+  .contact-container {
+    margin: 0 100px;
+  }
+  .contact-container-left p {
+    padding-right: 0;
+  }
 }
 
 
@@ -196,6 +278,19 @@
   }
   .skill-sets .skill-sets-bcgColor-2 {
     padding: 50px 50px;
+  }
+  .contact-container {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .contact-container-right {
+    padding-top: 50px;
+  }
+  .contact-container-left {
+    padding: 0 50px;
+  }
+  .contact-container-left p {
+    padding-right: 0;
   }
 }
 
