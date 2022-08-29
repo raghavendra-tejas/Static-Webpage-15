@@ -3,6 +3,23 @@
   .nav-right a {
     display: none;
   }
+  #header-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .header-right {
+    padding: 50px 0;
+  }
+  .header-left img {
+    width: 400px;
+    height: 350px;
+    object-fit:cover;
+    margin-top: 0;
+  }
+  .header-left p {
+    padding: 0 20px;
+  }
 }
 
 
@@ -11,7 +28,23 @@
   .nav-right a {
     display: none;
   }
-  
+  #header-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .header-right {
+    padding: 50px 0;
+  }
+  .header-left img {
+    width: 400px;
+    height: 400px;
+    object-fit:cover;
+    margin-top: 0;
+  }
+  .header-left p {
+    padding: 0 20px;
+  }
 }
 
 
@@ -19,6 +52,22 @@
 @media (min-width: 769px) and (max-width: 1024px) {
   .nav-right a {
     display: none;
+  }
+  #header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header-right {
+    padding: 50px 0;
+  }
+  .header-left img {
+    width: 500px;
+    height: 500px;
+    object-fit:cover;
+    margin-top: 0;
+  }
+  .header-left p {
+    padding: 0 20px;
   }
 }
 
@@ -28,6 +77,11 @@
   #navbar-container i {
     display: none;
   }
+  .header-left img {
+    width: 470px;
+    height: 500px;
+    object-fit: cover;
+  }
 }
 
 
@@ -35,5 +89,10 @@
 @media (min-width: 1201px) {
   #navbar-container i {
     display: none;
+  }
+  .header-left img {
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
   }
 }
