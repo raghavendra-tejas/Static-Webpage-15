@@ -1,0 +1,39 @@
+/* Mobile Devices */
+@media (max-width: 480px) {
+  .nav-right a {
+    display: none;
+  }
+}
+
+
+/* ipads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .nav-right a {
+    display: none;
+  }
+  
+}
+
+
+/* Small screens, laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .nav-right a {
+    display: none;
+  }
+}
+
+
+/* Desktops, large screens */
+@media (min-width: 1025px) and (max-width: 1200px) {
+  #navbar-container i {
+    display: none;
+  }
+}
+
+
+/* Extra large screens, TV */
+@media (min-width: 1201px) {
+  #navbar-container i {
+    display: none;
+  }
+}

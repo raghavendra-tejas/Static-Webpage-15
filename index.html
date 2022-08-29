@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="CSS\04_main01.css" />
     <link rel="stylesheet" href="CSS\05_main02.css" />
     <link rel="stylesheet" href="CSS\06_footer.css" />
+    <link rel="stylesheet" href="CSS\media-query.css" />
     <!-- Font Awesome -->
     <script
       src="https://kit.fontawesome.com/65a78c5857.js"
@@ -20,185 +21,188 @@
     <title>Static Webpage Template 15</title>
   </head>
   <body>
-    <!-- Navigation Section -->
-    <nav id="navbar-container">
-      <div class="nav-left">
-        <img src="IMAGES\Logo.png" alt="logo" />
-      </div>
-      <div class="nav-right">
-        <a href="#">HOME</a>
-        <a href="#">PROJECT</a>
-        <a href="#">ABOUT</a>
-        <a href="#">CONTACT</a>
-        <a href="#">OTHER PAGE</a>
-      </div>
-    </nav>
-    <header id="header-container">
-      <div class="header-left">
-        <img src="IMAGES\hero.png" alt="hero image" />
-      </div>
-      <div class="header-right">
-        <h4>Hello I'm Arthur</h4>
-        <h1>Visual Designer</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
-          Delectus aliquid ipsum obcaecati soluta voluptas sit neque! <br />
-          Porro modi quo excepturi deserunt veniam odit! <br />
-          Dolorem expedita, ullam pariatur tempore repellendus in.
-        </p>
-        <button>ABOUT ME</button>
-      </div>
-    </header>
-    <!-- Main Section (2 Section) -->
-    <!-- Main Section 1 -->
-    <section id="main-1-container">
-      <div class="skill-sets">
-        <div class="skill-sets-content skill-sets-bcgColor">
-          <img src="IMAGES\ui-design.png" alt="ui image" />
-          <h2>Ui Design</h2>
-          <p>
-            Lorem ipsum dolor sit <br />
-            amet, consectetur <br />
-            adipisicing elit.
-          </p>
-          <h4>KNOW MORE</h4>
-        </div>
-        <div class="skill-sets-content skill-sets-bcgColor-2">
-          <img src="IMAGES\product-design.png" alt="ui image" />
-          <h2>Product Design</h2>
-          <p>
-            Lorem ipsum dolor sit <br />
-            amet, consectetur <br />
-            adipisicing elit.
-          </p>
-          <h4>KNOW MORE</h4>
-        </div>
-        <div class="skill-sets-content skill-sets-bcgColor">
-          <img src="IMAGES\branding.png" alt="ui image" />
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit <br />
-            amet, consectetur <br />
-            adipisicing elit.
-          </p>
-          <h4>KNOW MORE</h4>
-        </div>
-      </div>
-      <div class="project-data-container">
-        <div class="project-data project-data-01">
-          <h1>12</h1>
-          <p>Years Experience</p>
-        </div>
-        <div class="project-data project-data-right">
-          <div class="project-data-top">
-            <h1>60+</h1>
-            <p>Clients</p>
-          </div>
-          <div class="project-data-bottom">
-            <h1>122+</h1>
-            <p>Completed Projects</p>
-          </div>
-        </div>
-        <div class="project-data project-data-right">
-          <div class="project-data-top">
-            <h1>08</h1>
-            <p>Years of Experience</p>
-          </div>
-          <div class="project-data-bottom">
-            <h1>10</h1>
-            <p>Achievments</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Main Section 2 -->
-    <section class="main-2-container">
-      <div class="featured-products-title">
-        <div class="featured-products-title-left">
-          <div class="heading-content">
-            <h2>FEATURED PROJECTS</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </div>
-          <div class="button">
-            <button>VIEW ALL</button>
-          </div>
-        </div>
-      </div>
-      <div class="portfolio">
-        <div class="portfolio-content">
-          <img
-            src="IMAGES\Screenshot 2022-06-25 131915.jpg"
-            alt="slide image"
-          />
-          <h2>The Vintage</h2>
-          <h5>KNOW MORE</h5>
-        </div>
-        <div class="portfolio-content">
-          <img
-            src="IMAGES\Screenshot 2022-06-25 132031.jpg"
-            alt="slide image"
-          />
-          <h2>Foodasa</h2>
-          <h5>KNOW MORE</h5>
-        </div>
-        <div class="portfolio-content">
-          <img
-            src="IMAGES\Screenshot 2022-06-25 133016.jpg"
-            alt="slide image"
-          />
-          <h2>Marco Accent</h2>
-          <h5>KNOW MORE</h5>
-        </div>
-        <div class="portfolio-content centering">
-          <img
-            src="IMAGES\Screenshot 2022-06-25 133426.jpg"
-            alt="slide image"
-          />
-          <h2>Mozaik</h2>
-          <h5>KNOW MORE</h5>
-        </div>
-      </div>
-    </section>
-    <!-- Footer Section (1 Sections) -->
-    <!-- Footer Section 1 -->
-    <section id="footer-container">
-      <div class="footer-container-top">
-        <div class="contact-container">
-          <div class="contact-container-left">
-            <h1>
-              Let's work together on <br />
-              your next project
-            </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-              quidem minus, <br />
-              neque quas illum adipisci alias quasi placeat suscipit a
-              cupiditate?
-              <br />
-              Ipsa placeat reiciendis quae ab minima corrupti enim nam?
-            </p>
-          </div>
-          <div class="contact-container-right">
-            <button>CONTACT</button>
-          </div>
-        </div>
-      </div>
-      <div class="footer-nav">
-        <a href="#">HOME</a>
-        <a href="#">ABOUT</a>
-        <a href="#">PROJECTS</a>
-        <a href="#">CONTACT</a>
-      </div>
-      <div class="footer-socialMedia">
-        <div class="footer-left-logo">
+    <div class="body">
+      <!-- Navigation Section -->
+      <nav id="navbar-container">
+        <div class="nav-left">
           <img src="IMAGES\Logo.png" alt="logo" />
         </div>
-        <div class="footer-right-logo">
-          <i class="fa-brands fa-facebook-f"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-youtube"></i>
+        <div class="nav-right">
+          <a href="#">HOME</a>
+          <a href="#">PROJECT</a>
+          <a href="#">ABOUT</a>
+          <a href="#">CONTACT</a>
+          <a href="#">OTHER PAGE</a>
         </div>
-      </div>
-    </section>
+        <i class="fa-solid fa-bars fa-lg" style="color: #fff"></i>
+      </nav>
+      <header id="header-container">
+        <div class="header-left">
+          <img src="IMAGES\hero.png" alt="hero image" />
+        </div>
+        <div class="header-right">
+          <h4>Hello I'm Arthur</h4>
+          <h1>Visual Designer</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br />
+            Delectus aliquid ipsum obcaecati soluta voluptas sit neque! <br />
+            Porro modi quo excepturi deserunt veniam odit! <br />
+            Dolorem expedita, ullam pariatur tempore repellendus in.
+          </p>
+          <button>ABOUT ME</button>
+        </div>
+      </header>
+      <!-- Main Section (2 Section) -->
+      <!-- Main Section 1 -->
+      <section id="main-1-container">
+        <div class="skill-sets">
+          <div class="skill-sets-content skill-sets-bcgColor">
+            <img src="IMAGES\ui-design.png" alt="ui image" />
+            <h2>Ui Design</h2>
+            <p>
+              Lorem ipsum dolor sit <br />
+              amet, consectetur <br />
+              adipisicing elit.
+            </p>
+            <h4>KNOW MORE</h4>
+          </div>
+          <div class="skill-sets-content skill-sets-bcgColor-2">
+            <img src="IMAGES\product-design.png" alt="ui image" />
+            <h2>Product Design</h2>
+            <p>
+              Lorem ipsum dolor sit <br />
+              amet, consectetur <br />
+              adipisicing elit.
+            </p>
+            <h4>KNOW MORE</h4>
+          </div>
+          <div class="skill-sets-content skill-sets-bcgColor">
+            <img src="IMAGES\branding.png" alt="ui image" />
+            <h2>Branding</h2>
+            <p>
+              Lorem ipsum dolor sit <br />
+              amet, consectetur <br />
+              adipisicing elit.
+            </p>
+            <h4>KNOW MORE</h4>
+          </div>
+        </div>
+        <div class="project-data-container">
+          <div class="project-data project-data-01">
+            <h1>12</h1>
+            <p>Years Experience</p>
+          </div>
+          <div class="project-data project-data-right">
+            <div class="project-data-top">
+              <h1>60+</h1>
+              <p>Clients</p>
+            </div>
+            <div class="project-data-bottom">
+              <h1>122+</h1>
+              <p>Completed Projects</p>
+            </div>
+          </div>
+          <div class="project-data project-data-right">
+            <div class="project-data-top">
+              <h1>08</h1>
+              <p>Years of Experience</p>
+            </div>
+            <div class="project-data-bottom">
+              <h1>10</h1>
+              <p>Achievments</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Main Section 2 -->
+      <section class="main-2-container">
+        <div class="featured-products-title">
+          <div class="featured-products-title-left">
+            <div class="heading-content">
+              <h2>FEATURED PROJECTS</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="button">
+              <button>VIEW ALL</button>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio">
+          <div class="portfolio-content">
+            <img
+              src="IMAGES\Screenshot 2022-06-25 131915.jpg"
+              alt="slide image"
+            />
+            <h2>The Vintage</h2>
+            <h5>KNOW MORE</h5>
+          </div>
+          <div class="portfolio-content">
+            <img
+              src="IMAGES\Screenshot 2022-06-25 132031.jpg"
+              alt="slide image"
+            />
+            <h2>Foodasa</h2>
+            <h5>KNOW MORE</h5>
+          </div>
+          <div class="portfolio-content">
+            <img
+              src="IMAGES\Screenshot 2022-06-25 133016.jpg"
+              alt="slide image"
+            />
+            <h2>Marco Accent</h2>
+            <h5>KNOW MORE</h5>
+          </div>
+          <div class="portfolio-content centering">
+            <img
+              src="IMAGES\Screenshot 2022-06-25 133426.jpg"
+              alt="slide image"
+            />
+            <h2>Mozaik</h2>
+            <h5>KNOW MORE</h5>
+          </div>
+        </div>
+      </section>
+      <!-- Footer Section (1 Sections) -->
+      <!-- Footer Section 1 -->
+      <section id="footer-container">
+        <div class="footer-container-top">
+          <div class="contact-container">
+            <div class="contact-container-left">
+              <h1>
+                Let's work together on <br />
+                your next project
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
+                quidem minus, <br />
+                neque quas illum adipisci alias quasi placeat suscipit a
+                cupiditate?
+                <br />
+                Ipsa placeat reiciendis quae ab minima corrupti enim nam?
+              </p>
+            </div>
+            <div class="contact-container-right">
+              <button>CONTACT</button>
+            </div>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <a href="#">HOME</a>
+          <a href="#">ABOUT</a>
+          <a href="#">PROJECTS</a>
+          <a href="#">CONTACT</a>
+        </div>
+        <div class="footer-socialMedia">
+          <div class="footer-left-logo">
+            <img src="IMAGES\Logo.png" alt="logo" />
+          </div>
+          <div class="footer-right-logo">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
